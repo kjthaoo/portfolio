@@ -160,7 +160,7 @@ body {
 
 /* the parallax effect */
 .parallax1 {
-    background:url("images/flowerskjthao.gif");
+    background:url("../images/flowerskjthao.gif");
     min-height: 650px;
 
     background-attachment:fixed;

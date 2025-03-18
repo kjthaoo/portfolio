@@ -179,7 +179,7 @@ body {
 
 /* the parallax effect */
 .parallax1 {
-    background:url("images/gamedevscene.jpg");
+    background:url("../images/gamedevscene.jpg");
     min-height: 650px;
 
     background-attachment: fixed;
@@ -188,7 +188,7 @@ body {
     background-size: cover;
 }
 .parallax2{
-    background:url("images/gamedevscene2.jpg");
+    background:url("../images/gamedevscene2.jpg");
     min-height: 500px;
 
     background-attachment: fixed;
@@ -197,7 +197,7 @@ body {
     background-size: cover;
 }
 .parallax3{
-    background:url("images/gamescene4.jpg");
+    background:url("../images/gamescene4.jpg");
     min-height: 500px;
 
     background-attachment: fixed;
@@ -206,7 +206,7 @@ body {
     background-size: cover;
 }
 .parallax4{
-    background:url("images/gamedevscene3.jpg");
+    background:url("../images/gamedevscene3.jpg");
     min-height: 500px;
 
     background-attachment: fixed;

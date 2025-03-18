@@ -160,7 +160,7 @@ body {
 
 /* the parallax effect */
 .parallax1 {
-    background:url("images/parallaxA.png");
+    background:url("../images/parallaxA.png");
     min-height: 650px;
 
     background-attachment: fixed;
@@ -169,7 +169,7 @@ body {
     background-size: cover;
 }
 .parallax2{
-    background:url("images/parallaxB.png");
+    background:url("../images/parallaxB.png");
     min-height: 500px;
 
     background-attachment: fixed;
@@ -178,7 +178,7 @@ body {
     background-size: cover;
 }
 .parallax3{
-    background:url("images/parallaxC.png");
+    background:url("../images/parallaxC.png");
     min-height: 500px;
 
     background-attachment: fixed;

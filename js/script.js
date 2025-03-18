@@ -1,4 +1,3 @@
-
 const myFunction = () => {
   const winScroll = window.scrollY;
   const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -8,65 +7,63 @@ const myFunction = () => {
 
 window.onscroll = myFunction;
 
-
 const getData = async () => {
-  const url = "https://kjthaoo.github.io/portfolio/data.json";
+  const url = "https://raw.githubusercontent.com/kjthaoo/portfolio/main/json/data.json";
 
   try {
-      const response = await fetch(url);
-      return await response.json();
+    const response = await fetch(url);
+    return response.ok ? await response.json() : null;
   } catch (error) {
-      console.log(error);
-      return null; 
+    console.error("Error fetching data:", error);
+    return null;
   }
 };
 
 const showData = async () => {
-  let projects = await getData();
-  if (!projects) return; 
+  const projects = await getData();
+  if (!projects) return;
 
-  //console.log("Projects:", projects);
-  let projectsSection = document.getElementById("projects");
+  const projectsSection = document.getElementById("projects");
 
-  projects.sections.forEach((project) => { 
-      projectsSection.appendChild(createProjectElement(project));
-  });
+  projects.sections.forEach((project) => 
+    projectsSection.appendChild(createProjectElement(project))
+  );
 };
 
 const createProjectElement = (project) => {
-  let section = document.createElement("div");
+  const section = document.createElement("div");
   section.classList.add("project-section");
 
-  let box = document.createElement("div");
+  const box = document.createElement("div");
   box.classList.add("box");
   section.appendChild(box);
 
-  let card = document.createElement("section");
+  const card = document.createElement("section");
   card.classList.add("card");
   box.appendChild(card);
 
-  let image = document.createElement("img");
-  image.src = "images/" + project.img_name;
+  const image = document.createElement("img");
+  image.src = `images/${project.img_name}`;
   image.alt = project.title;
   image.classList.add("project-image");
   card.appendChild(image);
 
-  let title = document.createElement("h3");
-  let titleLink = document.createElement("a");
-  titleLink.href = project.link;
+  const title = document.createElement("h3");
+  const titleLink = document.createElement("a");
+  
+  titleLink.href = `projects/${project.link}`;
   titleLink.textContent = project.title;
   title.appendChild(titleLink);
   box.appendChild(title);
 
-  let description = document.createElement("p");
+  const description = document.createElement("p");
   description.textContent = project.description;
   description.classList.add("project-description");
   box.appendChild(description);
 
-  let hr = document.createElement("hr");
-  box.appendChild(hr);
+  box.appendChild(document.createElement("hr"));
 
   return section;
 };
 
-window.onload = () => showData();
+window.onload = showData;

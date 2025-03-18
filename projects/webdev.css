@@ -160,7 +160,7 @@ body {
 
 /* the parallax effect */
 .parallax1 {
-    background:url("images/mainportal.jpg");
+    background:url("../images/mainportal.jpg");
     min-height: 650px;
 
     background-attachment: fixed;

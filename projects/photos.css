@@ -160,7 +160,7 @@ body {
 
 /* the parallax effect */
 .parallax1 {
-    background:url("images/thao_ECU.JPG");
+    background:url("../images/thao_ECU.JPG");
     min-height: 650px;
 
     background-attachment: fixed;
@@ -169,7 +169,7 @@ body {
     background-size: cover;
 }
 .parallax2{
-    background:url("images/thao_CU.JPG");
+    background:url("../images/thao_CU.JPG");
     min-height: 500px;
 
     background-attachment: fixed;
@@ -178,7 +178,7 @@ body {
     background-size: cover;
 }
 .parallax3{
-    background:url("images/thao_LS.JPG");
+    background:url("../images/thao_LS.JPG");
     min-height: 500px;
 
     background-attachment: fixed;
@@ -187,7 +187,7 @@ body {
     background-size: cover;
 }
 .parallax4{
-    background:url("images/thao_MS.JPG");
+    background:url("../images/thao_MS.JPG");
     min-height: 500px;
 
     background-attachment: fixed;
