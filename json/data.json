@@ -2,39 +2,57 @@
     "sections": [
       {
         "_id": 1,
-        "title": "Game Development",
+        "title": "In The Present - 2023",
         "img_name": "Inthepresent.gif",
         "link": "gamedev.html",
         "description": "Here is a walk-through of my first video game creation, detailing the game's conception, the underlying narrative, and the challenges I faced.",
-        "technologies": ["Unity Engine", "Asset Store", "Visual Studio Code"],
+        "technologies": ["Unity Engine", "C#"],
         "project_duration": "3 months"
       },
       {
         "_id": 2,
+        "title": "Flightless - 2024",
+        "img_name": "flightless-cover.jpg",
+        "link": "pigeon.html",
+        "description": "My 2nd game project, 'The Flightless Journey', is a narrative-driven adventure game that explores the life of a pigeon navigating through a city. This project showcases my growth in game design and storytelling.",
+        "technologies": ["Unity Engine", "Procreate", "C#"],
+        "project_duration": "3 months"
+      },
+      {
+        "_id": 3,
         "title": "Web Development",
         "img_name": "assignportal.jpg",
         "link": "webdev.html",
         "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques.",
-        "technologies": ["HTML5", "CSS", "JavaScript"],
+        "technologies": ["HTML", "CSS", "JavaScript"],
         "project_duration": "6 months"
-      },
-      {
-        "_id": 3,
-        "title": "A Visual Journey",
-        "img_name": "visualjourney.jpg",
-        "link": "visualj.html",
-        "description": "Discover my artistic creations in this digital realm and browse my gallery.",
-        "technologies": ["Procreate", "Clip Studio Paint", "JavaScript"],
-        "project_duration": "2 months"
       },
       {
         "_id": 4,
         "title": "Animations Project",
         "img_name": "animation.png",
         "link": "animation.html",
-        "description": "A short process on the animation project I created for my Media Arts minor.",
+        "description": "A short process on the animation project I created for my Media Arts minor. This was my first hands on animation ever!",
         "technologies": ["Procreate", "DaVinci Resolve", "Epidemic Sounds"],
         "project_duration": "3 months"
+      },
+      {
+        "_id": 5,
+        "title": "Photography Project",
+        "img_name": "thao_ECU.jpg",
+        "link": "photos.html",
+        "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
+        "technologies": ["Canon T5i"],
+        "project_duration": "1 months"
+      },
+      {
+        "_id": 6,
+        "title": "Capstone I and II",
+        "img_name": "daredivers-cover.jpg",
+        "link": "capstone.html",
+        "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
+        "technologies": ["Unity Engine", "C#", "Procreate", "GitHub"],
+        "project_duration": "12 months"
       }
     ]
   }
