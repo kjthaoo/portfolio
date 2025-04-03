@@ -2,16 +2,25 @@
     "sections": [
       {
         "_id": 1,
-        "title": "In The Present - 2023",
-        "img_name": "Inthepresent.gif",
-        "link": "gamedev.html",
-        "description": "Here is a walk-through of my first video game creation, detailing the game's conception, the underlying narrative, and the challenges I faced.",
-        "technologies": ["Unity Engine", "C#"],
-        "project_duration": "3 months"
+        "title": "Capstone I and II",
+        "img_name": "daredivers-cover.jpg",
+        "link": "capstone.html",
+        "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
+        "technologies": ["Unity Engine", "C#", "Procreate", "GitHub"],
+        "project_duration": "12 months"
       },
       {
         "_id": 2,
-        "title": "Flightless - 2024",
+        "title": "Web Development",
+        "img_name": "assignportal.jpg",
+        "link": "webdev.html",
+        "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques. I created a portal for my class assignments and projects process.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "project_duration": "6 months"
+      },
+      {
+        "_id": 3,
+        "title": "Flightless",
         "img_name": "flightless-cover.jpg",
         "link": "pigeon.html",
         "description": "My 2nd game project, 'The Flightless Journey', is a narrative-driven adventure game that explores the life of a pigeon navigating through a city. This project showcases my growth in game design and storytelling.",
@@ -19,16 +28,16 @@
         "project_duration": "3 months"
       },
       {
-        "_id": 3,
-        "title": "Web Development",
-        "img_name": "assignportal.jpg",
-        "link": "webdev.html",
-        "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "project_duration": "6 months"
-      },
-      {
         "_id": 4,
+        "title": "In The Present",
+        "img_name": "Inthepresent.gif",
+        "link": "gamedev.html",
+        "description": "Here is a walk-through of my first video game creation, detailing the game's conception, the underlying narrative, and the challenges I faced.",
+        "technologies": ["Unity Engine", "C#"],
+        "project_duration": "3 months"
+      },      
+      {
+        "_id": 5,
         "title": "Animations Project",
         "img_name": "animation.png",
         "link": "animation.html",
@@ -37,22 +46,13 @@
         "project_duration": "3 months"
       },
       {
-        "_id": 5,
-        "title": "Photography Project",
+        "_id": 6,
+        "title": "Photography",
         "img_name": "thao_ECU.jpg",
         "link": "photos.html",
         "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
         "technologies": ["Canon T5i"],
         "project_duration": "1 months"
-      },
-      {
-        "_id": 6,
-        "title": "Capstone I and II",
-        "img_name": "daredivers-cover.jpg",
-        "link": "capstone.html",
-        "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
-        "technologies": ["Unity Engine", "C#", "Procreate", "GitHub"],
-        "project_duration": "12 months"
       }
     ]
   }
