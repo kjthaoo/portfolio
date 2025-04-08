@@ -3,7 +3,7 @@
       {
         "_id": 1,
         "title": "Capstone I and II",
-        "img_name": "daredivers-cover.jpg",
+        "img_name": "daredivers.jpg",
         "link": "capstone.html",
         "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
         "technologies": ["Unity Engine", "C#", "Procreate", "GitHub"],
@@ -13,7 +13,7 @@
         "_id": 2,
         "title": "Web Development",
         "img_name": "assignportal.jpg",
-        "link": "webdev.html",
+        "link": "goldpebbles.jpg",
         "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques. I created a portal for my class assignments and projects process.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "project_duration": "6 months"
@@ -21,7 +21,7 @@
       {
         "_id": 3,
         "title": "Flightless",
-        "img_name": "flightless-cover.jpg",
+        "img_name": "flightless.gif",
         "link": "pigeon.html",
         "description": "My 2nd game project, 'The Flightless Journey', is a narrative-driven adventure game that explores the life of a pigeon navigating through a city. This project showcases my growth in game design and storytelling.",
         "technologies": ["Unity Engine", "Procreate", "C#"],
@@ -39,7 +39,7 @@
       {
         "_id": 5,
         "title": "Animations Project",
-        "img_name": "animation.png",
+        "img_name": "animation.gif",
         "link": "animation.html",
         "description": "A short process on the animation project I created for my Media Arts minor. This was my first hands on animation ever!",
         "technologies": ["Procreate", "DaVinci Resolve", "Epidemic Sounds"],
