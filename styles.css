@@ -95,7 +95,7 @@ body {
     margin-right: 10px;
     border-radius: 1%;
     width: 425px;
-    height: 425px;
+    height: 460px;
 }
 
 .card {
@@ -103,6 +103,12 @@ body {
     border-radius: 1%;
     margin-right: 30px;
     margin-left: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth moves */
+}
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* give it a little lift */
+    border-color: #aaa; /* optional: subtly darken the border */
 }
 
 hr { /* the dividers */
