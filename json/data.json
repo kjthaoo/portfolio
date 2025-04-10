@@ -21,7 +21,7 @@
       {
         "_id": 3,
         "title": "Flightless",
-        "img_name": "flightless.gif",
+        "img_name": "flightlesscover.gif",
         "link": "pigeon.html",
         "description": "My 2nd game project, 'The Flightless Journey', is a narrative-driven adventure game that explores the life of a pigeon navigating through a city. This project showcases my growth in game design and storytelling.",
         "technologies": ["Unity Engine", "Procreate", "C#"],
