@@ -13,7 +13,7 @@
         "_id": 2,
         "title": "Web Development",
         "img_name": "portal.jpg",
-        "link": "goldpebbles.jpg",
+        "link": "webdev.html",
         "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques. I created a portal for my class assignments and projects process.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "project_duration": "6 months"

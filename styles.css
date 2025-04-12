@@ -83,8 +83,8 @@ body {
     background-color: white;
     width: auto;
     height: 2050px; /* reminder that this also effects the spacing between section2 and section 3 */
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 215px;
+    margin-right: 155px;
     padding-top: 100px;
 }
 
@@ -93,23 +93,20 @@ body {
     padding-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 1%;
-    width: 425px;
+    border-radius: 2%;
+    width: 450px;
     height: 460px;
 }
 .project-section{
-    border: solid lightgray 2px;
+    border: solid rgba(242, 242, 242, 0.784) 2px;
     margin: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth moves */
-    border-radius: 1%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 2%;
 }
 .project-section:hover {
     transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* give it a little lift */
-    border-color: #aaa; /* optional: subtly darken the border */
-}
-.box {
-
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-color: #dbdbdb;
 }
 
 .card {
