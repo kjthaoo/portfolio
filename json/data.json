@@ -22,7 +22,7 @@
         "_id": 3,
         "title": "Flightless",
         "img_name": "flightlesscover.gif",
-        "link": "pigeon.html",
+        "link": "flightless.html",
         "description": "My 2nd game project, 'The Flightless Journey', is a narrative-driven adventure game that explores the life of a pigeon navigating through a city. This project showcases my growth in game design and storytelling.",
         "technologies": ["Unity Engine", "Procreate", "C#"],
         "project_duration": "3 months"
@@ -31,7 +31,7 @@
         "_id": 4,
         "title": "In The Present",
         "img_name": "Inthepresent.gif",
-        "link": "gamedev.html",
+        "link": "present.html",
         "description": "Here is a walk-through of my first video game creation, detailing the game's conception, the underlying narrative, and the challenges I faced.",
         "technologies": ["Unity Engine", "C#"],
         "project_duration": "3 months"
