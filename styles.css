@@ -82,35 +82,41 @@ body {
 #projects {
     background-color: white;
     width: auto;
-    height: 1350px; /* reminder that this also effects the spacing between section2 and section 3 */
-    margin-left: 250px;
-    margin-right: 250px;
+    height: 2050px; /* reminder that this also effects the spacing between section2 and section 3 */
+    margin-left: 200px;
+    margin-right: 200px;
     padding-top: 100px;
 }
 
 #projects img {
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 1%;
     width: 425px;
     height: 460px;
 }
-
-.card {
+.project-section{
     border: solid lightgray 2px;
-    border-radius: 1%;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth moves */
+    border-radius: 1%;
 }
-.card:hover {
+.project-section:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* give it a little lift */
     border-color: #aaa; /* optional: subtly darken the border */
 }
+.box {
 
+}
+
+.card {
+    border-radius: 1%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
 hr { /* the dividers */
     margin-top: 20px;
     margin-right: 28px;
@@ -311,8 +317,8 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-right: 30px;
-        margin-left: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
         padding-bottom: 10px;
     }
 
