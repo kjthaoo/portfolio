@@ -282,6 +282,107 @@ body {
   transform: scale(1.1);
 }
 
+/* Ultra-Wide Screens (Big Desktops, Large Monitors) */
+@media (min-width: 1600px) {
+    .flex-container {
+        display: flex;
+    }
+
+    #main-header {
+        display: flex;
+        padding: 0 100px;
+    }
+
+    .progress-container {
+        display: flex;
+    }
+
+    #main-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 0 100px;
+    }
+
+    .img3D img {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        transform: scale(1.1); /* tiny bit bigger on wider screens */
+    }
+
+    #main-nav {
+        display: flex;
+        margin-left: auto;
+        margin-right: 100px;
+    }
+
+    #main-nav ul {
+        display: flex;
+        align-items: flex-end;
+        margin: 5px;
+        margin-right: 60px;
+    }
+
+    #main-nav li {
+        flex: .5;
+        margin: 10px 20px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    #projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        padding: 0 80px;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .section7,
+    .section8 {
+        width: 550px;
+        height: 700px;
+        padding-top: 30px;
+    }
+
+    .intro h1 {
+        font-size: 3.2rem;
+    }
+
+    .intro p {
+        font-size: 1.3rem;
+        line-height: 2;
+        max-width: 800px;
+    }
+
+    .star3D img,
+    .shadowstar img {
+        transform: scale(1.15);
+    }
+}
+
 /* Larger Resolutions */
 @media(min-width:600px) {
     .flex-container {
