@@ -3,9 +3,9 @@
       {
         "_id": 1,
         "title": "Capstone Computing Project I and II",
-        "img_name": "daredivers.jpg",
+        "img_name": "darediverscover.png",
         "link": "capstone.html",
-        "description": "Explore my photography project where I captured the different shot types the through my lens, focusing on composition, lighting, and storytelling.",
+        "description": "A major team-based software design project, involving project planning, requirements analysis, design, specifications, and culminating in technical reports and oral presentation.",
         "technologies": ["Unity Engine", "C#", "Procreate", "GitHub"],
         "project_duration": "12 months"
       },
