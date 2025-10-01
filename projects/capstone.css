@@ -32,7 +32,7 @@ body {
     background-color: white;
     padding: 1px;
     width: 100%;
-    height: 2220px;
+    height: 2620px;
 }
 
 #main-footer {
@@ -107,7 +107,7 @@ body {
 #main-content h3 {
     font-size: 20px;
     margin-left: 200px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #main-content p,
@@ -119,10 +119,17 @@ body {
 }
 
 .intro,
-.background,
 .challenges,
 .feedback {
     padding-bottom: 50px;
+}
+
+.challenges {
+    padding-top: 50px;
+}
+
+.background {
+    padding-bottom: 100px;
 }
 
 #main-nav {
