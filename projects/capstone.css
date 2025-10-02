@@ -110,6 +110,14 @@ body {
     padding-top: 30px;
 }
 
+#main-content h4 {
+    font-size: 15px;
+    margin-left: 200px;
+    padding-top: 0.5px;
+    font-style: normal;
+    font-weight: normal;
+}
+
 #main-content p,
 #main-content li {
     font-size: 15px;
@@ -121,7 +129,7 @@ body {
 .intro,
 .challenges,
 .feedback {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .challenges {
@@ -143,6 +151,17 @@ body {
 
 #main-nav a:hover {
     color: #1ca2d3;
+}
+
+#Capstone-Link {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(30deg,#1ca2d3, #ff8400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 15px;
 }
 
 #main-footer a {
